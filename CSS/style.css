@@ -1,0 +1,157 @@
+body{
+  background: url('https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png');
+  background-size: cover;
+  background-attachment: fixed;
+  padding:0;
+  margin:0;
+  font-family: 'Exo';
+  font-size: 25px;
+}
+h1{
+  position:relative;
+  font-style: normal;
+  color:white;
+  font-size: 45px;
+  bottom:785px;
+  left:210px;
+}
+span{
+  color:#8B008B;
+}
+hr{
+  height:10px;
+  width:80%;
+  border-style:dotted none none;
+  border-width:5px;
+  border-color:white;
+}
+.Challenge3{
+  position: relative;
+  left:15px;
+  top: 260px;
+}
+.Challenge4{
+  position: relative;
+  left:15px;
+  top: 270px;
+}
+.Moodle{
+  position: relative;
+  left:15px;
+  top: 250px;
+}
+.Telegram{
+  position: absolute;
+  top: 850px;
+  left:1000px;
+  clear:none;
+}
+.Instagram{
+   position: absolute;
+   top:850px;
+   left:650px;
+   clear:none;
+}
+.Whatsapp{
+  position:absolute;
+  left:300px;
+  top:850px;
+  clear:none;
+}
+.circular{
+  border-radius: 20px;
+}
+.ProgrammerPH{
+  position: relative;
+  left: 860px;
+  bottom: 120px;
+  float: none;
+}
+.Greeting1{
+  position: relative;
+  color:white;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  bottom:545px;
+  left:210px;
+}
+.Greeting2{
+  position: relative;
+  color:white;
+  font-size: 100px;
+  font-style: normal;
+  left:210px;
+  bottom:660px;
+}
+
+.Telegram:hover .overlay {
+  opacity: 1;
+  display:block;
+}
+.Instagram:hover .overlay {
+  opacity: 1;
+  display:block;
+}
+.Whatsapp:hover .overlay {
+  opacity: 1;
+  display:block;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.top-container1{
+  height:200px;
+  width: 200px;
+  background-color: red;
+  position:relative;
+  left:400px;
+  top:200px;
+}
+.middle-container1{
+  height:200px;
+  width: 200px;
+  background-color: blue;
+  position:relative;
+}
+.bottom-container1{
+  height:200px;
+  width: 200px;
+  background-color: green;
+  position:relative;
+  left:200px;
+  bottom:200px;
+}
+.top-container2{
+  height:200px;
+  width: 200px;
+  background-color: red;
+  position:absolute;
+  left:400px;
+  top:400px;
+}
+.middle-container2{
+  height:200px;
+  width: 200px;
+  background-color: blue;
+  position:absolute;
+  left:200px;
+  top:200px;
+}
+.bottom-container2{
+  height:200px;
+  width: 200px;
+  background-color: green;
+  position:absolute;
+}
